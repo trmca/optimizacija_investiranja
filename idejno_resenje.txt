@@ -1,0 +1,14 @@
+Idejno resenje 1.0
+
+Svaki broker ce biti instanca klase broker.
+Ove klase ce biti cuvane u brokeri.json fajlu.
+Argumenti klase broker:
+	-brokerName - ime brokera
+	-custodyFee - troskovi odrzavanja portfolija, izrazeni u relativnim brojevima (1% == 0.01)
+	-custodyFeeInterval - interval placanja troskova odrzavanja portfolija (1 - godisnje,
+	0.5 - polugodisnje, 0.25 - kvartalno...)
+	-transactionFee - brokerska provizija, izrazeni u relativnim brojevima (1% == 0.01)
+	-transactionFeeMinimum - minimalna brokerska provizija, izrazena u EUR valuti (koliko sam video
+	najcesce su tako, neka ostane podlozno promeni)
+	-bankFee - troskovi saldiranja, izrazeni u relativnim brojevima (1% == 0.01)
+	
